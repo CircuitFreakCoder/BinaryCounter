@@ -1,0 +1,3 @@
+BinaryCounter	KEYWORD1
+start	KEYWORD2
+jorick	LITERAL1

@@ -1,0 +1,89 @@
+\hypertarget{class_binary_counter}{\section{Binary\-Counter Class Reference}
+\label{class_binary_counter}\index{Binary\-Counter@{Binary\-Counter}}
+}
+
+
+{\ttfamily \#include $<$Binary\-Counter.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_binary_counter_abc422048cc3eb768f84cf3d33280b90c}{Binary\-Counter} (int b0=2, int b1=3, int b2=4, int b3=5)
+\item 
+void \hyperlink{class_binary_counter_ab8a068a8d01ecfc0c2ca0226c2aebb26}{start} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_binary_counter_a4609151e73e2235a4520b439c5faf13d}{display\-Binary} (int num\-To\-Show)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_binary_counter_aa6ef09d4b8d95af24c0ddfb45d643982}{pins} \mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_binary_counter}{Binary\-Counter} encapsulates the implementation of a binary counter led sequence. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_binary_counter_abc422048cc3eb768f84cf3d33280b90c}{\index{Binary\-Counter@{Binary\-Counter}!Binary\-Counter@{Binary\-Counter}}
+\index{Binary\-Counter@{Binary\-Counter}!BinaryCounter@{Binary\-Counter}}
+\subsubsection[{Binary\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}Binary\-Counter\-::\-Binary\-Counter (
+\begin{DoxyParamCaption}
+\item[{int}]{b0 = {\ttfamily 2}, }
+\item[{int}]{b1 = {\ttfamily 3}, }
+\item[{int}]{b2 = {\ttfamily 4}, }
+\item[{int}]{b3 = {\ttfamily 5}}
+\end{DoxyParamCaption}
+)}}\label{class_binary_counter_abc422048cc3eb768f84cf3d33280b90c}
+Constructs a \hyperlink{class_binary_counter}{Binary\-Counter} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em b0} & Pin number of bit zero, the least significant bit. Default value is 2. \\
+\hline
+{\em b1} & Pin number of bit one. Default value is 3. \\
+\hline
+{\em b2} & Pin number of bit two. Default value is 4. \\
+\hline
+{\em b3} & Pin number of bit three, the most significant bit. Default value is 5. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_binary_counter_a4609151e73e2235a4520b439c5faf13d}{\index{Binary\-Counter@{Binary\-Counter}!display\-Binary@{display\-Binary}}
+\index{display\-Binary@{display\-Binary}!BinaryCounter@{Binary\-Counter}}
+\subsubsection[{display\-Binary}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\-Counter\-::display\-Binary (
+\begin{DoxyParamCaption}
+\item[{int}]{num\-To\-Show}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_binary_counter_a4609151e73e2235a4520b439c5faf13d}
+Displays the binary representation of a decimal number.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\-To\-Show} & The decimal number to display in binary notation. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_counter_ab8a068a8d01ecfc0c2ca0226c2aebb26}{\index{Binary\-Counter@{Binary\-Counter}!start@{start}}
+\index{start@{start}!BinaryCounter@{Binary\-Counter}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\-Counter\-::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_binary_counter_ab8a068a8d01ecfc0c2ca0226c2aebb26}
+Starts the binary counter led sequence. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_binary_counter_aa6ef09d4b8d95af24c0ddfb45d643982}{\index{Binary\-Counter@{Binary\-Counter}!pins@{pins}}
+\index{pins@{pins}!BinaryCounter@{Binary\-Counter}}
+\subsubsection[{pins}]{\setlength{\rightskip}{0pt plus 5cm}int Binary\-Counter\-::pins\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_binary_counter_aa6ef09d4b8d95af24c0ddfb45d643982}
+Integer array to hold the four bits. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Binary\-Counter.\-h\item 
+Binary\-Counter.\-cpp\end{DoxyCompactItemize}
